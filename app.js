@@ -1,5 +1,13 @@
-jQuery(function(){
+jQuery(document).ready(function(){
 
-    // jQuery methods go here...
+    jQuery(".hide").click(function(){
+
+         jQuery(".box").hide();
+    });
+
+    jQuery(".show").click(function(){
+
+        jQuery(".box").show();
+    });
   
   });
