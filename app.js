@@ -32,5 +32,24 @@ jQuery(document).ready(function(){
         $("#div2").fadeToggle("slow");
         $("#div3").fadeToggle(3000);
       });
+
+      jQuery("#startanimate").click(function() {
+
+           jQuery("#animate").animate({color:"white"});
+        });
+
+
+
+
+        // stop function 
+
+        $(document).ready(function(){
+            $("#flip").click(function(){
+              $("#panel").slideDown(5000);
+            });
+            $("#stop").click(function(){
+              $("#panel").stop();
+            });
+          });
   
   });
