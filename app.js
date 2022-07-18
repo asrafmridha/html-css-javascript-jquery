@@ -1,16 +1,16 @@
 jQuery(document).ready(function(){
 
-    jQuery(".hide").click(function(){
+    jQuery("#hide").click(function(){
 
          jQuery(".box").hide(1000);
     });
 
-    jQuery(".show").click(function(){
+    jQuery("#show").click(function(){
 
         jQuery(".box").show(1000);
     });
 
-    jQuery(".toggle").click(function(){
+    jQuery("#toggle").click(function(){
 
        jQuery(".box").toggle(1000);
     });
@@ -25,6 +25,12 @@ jQuery(document).ready(function(){
         $("#div1").fadeOut();
         $("#div2").fadeOut("slow");
         $("#div3").fadeOut(3000);
+      });
+
+      $("#buttontoggle").click(function(){
+        $("#div1").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(3000);
       });
   
   });
