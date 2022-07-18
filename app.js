@@ -2,12 +2,12 @@ jQuery(document).ready(function(){
 
     jQuery("#hide").click(function(){
 
-         jQuery(".box").hide(1000);
+         jQuery(".box").hide(4000);
     });
 
     jQuery("#show").click(function(){
 
-        jQuery(".box").show(1000);
+        jQuery(".box").show(4000);
     });
 
     jQuery("#toggle").click(function(){
@@ -51,5 +51,13 @@ jQuery(document).ready(function(){
               $("#panel").stop();
             });
           });
+
+          jQuery('#getvalue').click(function(){
+
+
+            alert( jQuery('#par').text());
+          })
+
+          
   
   });
