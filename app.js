@@ -58,6 +58,9 @@ jQuery(document).ready(function(){
             alert( jQuery('#par').text());
           })
 
-          
+          jQuery("#chaining").click(function(){
+
+            jQuery("#chainingvalue").css("color","red").slideUp(1000).slideDown(1000);
+          })
   
   });
