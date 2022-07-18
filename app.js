@@ -56,11 +56,17 @@ jQuery(document).ready(function(){
 
 
             alert( jQuery('#par').text());
-          })
+          });
 
           jQuery("#chaining").click(function(){
 
             jQuery("#chainingvalue").css("color","red").slideUp(1000).slideDown(1000);
+          });
+
+          jQuery("#get").click(function(){
+           var x= jQuery("#getset").text();
+           jQuery("#getvalue").text(x);
+
           })
   
   });
