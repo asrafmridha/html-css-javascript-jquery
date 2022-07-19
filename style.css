@@ -35,3 +35,23 @@
   #getset{
     margin: 50px;
   }
+  #getvalue1{
+    margin: 50px;
+  }
+
+  .cssclass{
+
+    background: red;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+
+  }
+  .fixed{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: green;
+  }

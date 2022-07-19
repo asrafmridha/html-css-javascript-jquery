@@ -65,8 +65,14 @@ jQuery(document).ready(function(){
 
           jQuery("#get").click(function(){
            var x= jQuery("#getset").text();
-           jQuery("#getvalue").text(x);
+           jQuery("#getvalue1").text(x);
 
-          })
+          });
+
+          jQuery("#classapply").click(function(){
+           
+            jQuery(".cssclass").addClass("fixed");
+
+          });
   
   });
